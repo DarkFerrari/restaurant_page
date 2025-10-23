@@ -19,15 +19,24 @@ nav div{
     justify-content: center;
 }
 
-button{
-    list-style: none;
-    text-align: center;
-    width: 100px;
+nav button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: #eee;
+  border: none;
+  border-radius: 5px;
+}
+
+nav button.active {
+  background-color: #5a79d4; /* Highlight color */
+  color: rgb(242, 239, 235);
+   border: black 2px solid;
 }
 
 .image-container{
     padding: 10px;
-   background-color: brown;
+   
     text-align: center;
 }
 
