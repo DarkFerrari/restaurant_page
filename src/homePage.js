@@ -2,6 +2,7 @@ import homeImage from "./assets/restaurant_home_image.png";
 
 export function homeLoad(){
     const content = document.getElementById('content');
+    content.innerHTML = '';
 
     const headline = document.createElement('h1');
     headline.textContent = "Welcome to My Biryani Restaurant!";
