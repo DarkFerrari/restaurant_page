@@ -1,3 +1,6 @@
+*{
+    border: 2px solid red;
+}
 body{
     background-color: orange;
 }
@@ -14,4 +17,21 @@ nav{
 nav div{
     display: flex;
     justify-content: center;
+}
+
+li{
+    list-style: none;
+    text-align: center;
+    width: 100px;
+}
+
+.image-container{
+    padding: 10px;
+   background-color: brown;
+    text-align: center;
+}
+
+.home-image{
+    width: 700px;
+    height: 700px;
 }
