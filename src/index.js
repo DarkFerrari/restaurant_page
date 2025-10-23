@@ -1,15 +1,12 @@
 import "./styles.css";
-import homeImage from "./assets/restaurant_home_image.png";
+import {homeLoad} from "./homePage.js";
+import {menu} from "./menuPage.js";
+import {contact} from "./contactPage.js";   
 
+homeLoad();
 console.log('Hello, from restaurant index.js!');
 
-const imageContainer = document.createElement('div');
-imageContainer.classList.add("image-container");
-document.body.appendChild(imageContainer);
 
-const image = document.createElement('img');
-image.src = homeImage;
-imageContainer.appendChild(image);
-image.classList.add("home-image");
+
 
 
